@@ -8,10 +8,12 @@ body {
   background-color: #FEFBEA;
 }
 
-h1 {
+#header {
+  width: 75vw;
   font-size: 8.5em;
-  padding: 0;
   margin-bottom: 0;
+  margin-top: 1em;
+  text-align: center;
   font-weight: 300;
   color: #3b2921;
   text-decoration: overline;
@@ -22,8 +24,10 @@ h1 {
   background-size: cover;
   background-position: center;
   border-radius: 20px;
-  width: 800px;
-  height: 350px;
+  /* width: 800px;
+  height: 350px; */
+  width: 75vw;
+  height: 40vh;
   padding: 0;
 }
 
@@ -72,4 +76,30 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 0;
+    color: gray;
+  }
+
+  #actor, #singer, #software-engineer {
+    font-size: 2em;
+    font-weight: 300;
+  }
+
+  #reps {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 1em;
+  }
 }
