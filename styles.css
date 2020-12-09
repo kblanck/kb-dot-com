@@ -35,9 +35,9 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 800px;
+  width: 75vw;
   padding: 0;
-  color: lightgray;
+  color: #3b2921;
 }
 
 #actor, #singer, #software-engineer {
@@ -102,4 +102,10 @@ a:hover {
     align-content: space-between;
     padding: 1em;
   }
+
+  #agents, #manager, #commercial {
+    font-size: 1.5em;
+    padding: 1em;
+  }
+
 }
