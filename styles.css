@@ -31,23 +31,31 @@ body {
 
 #about {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-right: -5em;
-  width: 75vw;
-  padding-top: 1em;
+  flex-direction: row;
+  align-items: space-around;
+  justify-content: center;
+  /* margin-right: -5em; */
+  /* width: 75vw; */
   color: #3b2921;
 }
 
 #actor, #singer, #software-engineer {
-  font-size: 2em;
+  font-size: 1.25em;
   font-weight: 300;
+}
+
+#actor {
+  padding: 0 1em 0 0 ;
+}
+
+#singer {
+  padding: 0 1em 0 0 ;
 }
 
 #reps {
   display: flex;
   flex-direction: column;
-  padding: 1em;
+  padding: 0em;
 }
 
 #agents, #manager, #commercial {
@@ -136,5 +144,8 @@ footer {
   #agents, #manager, #commercial {
     font-size: 1em;
     padding: 1em;
+  }
+  footer {
+    padding: .5em 0 1.5em 0;
   }
 }
